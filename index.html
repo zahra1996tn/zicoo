@@ -1,0 +1,721 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> زیکو | مرجع اموزشی برنامه نویسی </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-rtl.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/myscript.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+
+<body>
+	
+	<!-- Start Header -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 d-none d-lg-block">
+				<img src="img/logo.png" class="img-fluid my-3">
+			</div>
+			<div class="d-none d-lg-flex col-lg-6 align-items-center">
+				<div class="input-group custom-input-group">
+					<input type="search" class="rounded-pill form-control" placeholder="لطفا عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append">
+						<button type="button" class="btn btn-primary rounded-pill"> جستجو </button>
+					</div>
+				</div>
+			</div>
+			<div class="d-none d-lg-flex col-lg-3 align-items-center justify-content-center custom-header">
+				<a href="Login.html" class="ml-3 pl-3 border-left">
+					<i class="fa fa-external-link pl-1 align-middle"> ورود </i>
+				</a>
+				<a href="Sign-up.html" class="ml-3 pl-3 border-left">
+					<i class="fa fa-user pl-1 align-middle"> ثبت نام </i>
+				</a>
+				<a href="#" class="ml-3 pl-3">
+					<i class="fa fa-shopping-cart align-middle pl-1" data-toggle="tooltip" data-placement="top" title="سبد خرید"></i>
+				</a>
+			</div>
+			<!-- header for mobile -->
+			<div class="col-12 d-lg-none d-flex justify-content-center align-items-center custom-header-none">
+				<a href="#">
+					<i class="fa fa-external-link ml-5 align-middle"></i>
+				</a>
+				<a href="#">
+					<i class="fa fa-user ml-5 align-middle"></i>
+				</a>	
+				<a href="#">
+					<i class="fa fa-shopping-cart ml-5" data-toggle="tooltip" data-placement="top" title="سبد خرید"></i>
+				</a>
+				<a href="#search" data-toggle="collapse">
+					<i class="fa fa-search align-middle"></i>
+				</a>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 mt-4">
+				<div class="collapse" id="search">
+				<div class="input-group custom-input-group">
+					<input type="search" class="rounded-pill form-control" placeholder="لطفا عبارت مورد نظر خود را جستجو کنید ...">
+					<div class="input-group-append">
+						<button type="button" class="btn btn-primary rounded-pill"> جستجو </button>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End header -->
+	
+	<!-- Start menu -->
+	<nav class="navbar navbar-expand-lg navbar-dark mt-2" style="background-color: #4d545d !important;">
+		<div class="container">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#zari">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="zari">
+				<ul class="navbar-nav text-center custom-navbar-nav pr-0">
+					<li class="nav-item custom-nav-item">
+						<a class="nav-link" href="index.html"> صفحه اصلی </a>
+					</li>
+					<li class="nav-item custom-nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> دوره های متخصص </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a class="dropdown-item border-bottom py-2"> متخصص اندروید با استاد قاسمی </a>
+							<a class="dropdown-item border-bottom py-2"> متخصص php با استاد نریمانی </a>
+							<a class="dropdown-item border-bottom py-2" href="Category.html"> متخصص طراحی سایت با استاد دینی </a>
+							<a class="dropdown-item border-bottom py-2"> متخصص اندروید بذ استاد سلیمانی </a>
+							<a class="dropdown-item border-bottom py-2"> متخصص جاوا اسکریپت </a>
+							<a class="dropdown-item border-bottom py-2"> متخصص ورد پرس </a>
+							<a class="dropdown-item"> متخصص پایتون </a>
+						</ul>
+					</li>
+					<li class="nav-item custom-nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> گرافیک </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a class="dropdown-item border-bottom py-2"> متخصص افترافکت </a>
+							<a class="dropdown-item border-bottom py-2"> indeugn 2019 </a>
+							<a class="dropdown-item border-bottom py-2"> lightroom 2019 </a>
+							<a class="dropdown-item border-bottom py-2"> photoshop 2019 </a>
+							<a class="dropdown-item py-2"> illustrator 2019 </a>
+						</ul>
+					</li>
+					<li class="nav-item custom-nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> افیس </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a class="dropdown-item py-2">Excel </a>
+						</ul>
+					</li>
+					<li class="nav-item custom-nav-item">
+						<a class="nav-link"> لینوکس </a>
+					</li>
+					<li class="nav-item custom-nav-item">
+						<a class="nav-link"> سی پلاس پلاس </a>
+					</li>
+					<li class="nav-item custom-nav-item">
+						<a class="nav-link"> کانفیگ سرورهای لینوکسی </a>
+					</li>
+					<li class="nav-item dropdown custom-nav-item">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown"> مهندسی </a>
+						<ul class="dropdown-menu dropdown-menu-right text-right custom-dropdownmenu">
+							<a class="dropdown-item border-bottom py-2"> اموزش اوتکد پروژه محور 2019 </a>
+							<a class="dropdown-item py-2"> Matlab </a>
+						</ul>
+					</li>
+						<li class="nav-item custom-nav-item">
+						<a class="nav-link" href="Contact-us.html"> تماس با ما </a>
+					</li>
+					<li class="nav-item custom-nav-item">
+						<a class="nav-link"> تحلیل بورسی </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End menu -->
+	
+	<!-- Start slider -->
+	
+	<div class="container-fluid custom-containerfluid">
+		<div class="row justify-content-center align-items-center d-flex">
+			<h6 class="titr pr-1"> برای تمامی آموزش ها گروه رفع اشکال ایجاد شد 
+				<button class="btn btn-primary rounded-0 p-3" data-toggle="modal" data-target="#mymodal"> عضویت رایگان </button>
+			</h6>
+			<div class="modal fade" id="mymodal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title"> عضویت در گروه رفع اشکال </h5>
+						</div>
+						<div class="modal-body">
+						<small class="d-block"> 1. نام و نام خانوادگی </small>
+						<small class="d-block my-2"> 2. شماره تماس اکانت تلگرام </small>
+						<small class="d-block"> 3. ایمیلی که با ان در سایت ثبتنام کردید </small>
+						<small class="d-block my-2 mb-4"> 4. نام دوره هایی که خریداری کردید </small>
+						<small class="d-block text-left my-2"> (09362563528) پیامک  <i class="fa fa-envelope text-muted align-middle" ></i></small>
+						<small class="d-block text-left my-2">  helali026@gmail.com  <i class="fa fa-envelope-open text-muted align-middle" ></i></small>
+						<small class="d-block text-left my-2"> @Ziccosupport2  <i class="fa fa-send text-muted align-middle" ></i></small>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger rounded-pill" data-dismiss="modal"> بستن </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- End slider -->
+	
+	<!-- Start products -->
+	
+	<div class="container custom-border">
+		<div class="row mt-3 mb-2">
+			<div class="col-12 d-md-flex justify-content-between align-items-center">
+				<p class="rounded-pill p-2 px-4 text-white text-center" style="font-size: 14px !important; background-color:  #4ec51c !important;">  
+				<img src="img/diamond (1).png" class="pl-2">
+					متخصص اندروید
+				</p>
+				<p class="rounded-pill p-2 px-4 bg-secondary text-white text-center" style="font-size: 14px !important; cursor: pointer;">
+				<i class="fa fa-plus pl-2"></i>
+					مشاهده همه
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/buildapp-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 37 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> اموزش ساخت اپلیکیشن اندروید مشابه دیجی کالا </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش چهارم متخصص اندروید </small>
+						<small class="card-text d-flex text-muted c-space"> در این بخش برای تکمیل دوره متخصص اندروید ، یک اپلیکیشن فروشگاهی مشابه دیجیکالا را خواهیم داشت تا تمامی . . .  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/What-is-an-API-405x230.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 86 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> وب سرویس در اندروید استودیو </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش سوم متخصص اندروید </small>
+						<small class="card-text d-flex text-muted c-space"> وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با استفاده از پروتکل های استاندارد مانند http، مکانیزم های مختلفی در اختیار ما قرار می دهند  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/android-studio-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 180 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> آموزش اندروید </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش دوم متخصص اندروید </small>
+						<small class="card-text d-flex text-muted c-space"> برنامه نویسی اندروید یکی از بروزترین و پرکاربرد ترین و در عین حال پر درآمد ترین حوزه در برنامه نویسی می باشد ، زیرا با وجود مارکت های خارجی و ایرانی فروش محصول شما به تعداد بالا بسیار راحت بوده </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/java1ex.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 106 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> اموزش جاوا برای اندروید </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص اندروید </small>
+						<small class="card-text d-flex text-muted c-space"> آموزش جاوا برای اندروید به صورت کاملا مفهومی و کد محور ، اگر قصد یادگیری اندروید استودیو را دارید حتما این آموزش را مشاهده کنید   </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start row 2 -->
+	<div class="container custom-border">
+		<div class="row mt-3 mb-2">
+			<div class="col-12 d-md-flex justify-content-between align-items-center">
+				<p class="rounded-pill p-2 px-4 text-white text-center" style="font-size: 14px !important; background-color:  #4ec51c !important;">  
+				<img src="img/diamond (1).png" class="pl-2">
+					محبوب ترین ها
+				</p>
+				<p class="rounded-pill p-2 px-4 bg-secondary text-white text-center" style="font-size: 14px !important; cursor: pointer;">
+				<i class="fa fa-plus pl-2"></i>
+					مشاهده همه
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/bootstrap-4.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 254 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> اموزش پروژه محور بوت استرپ 4 </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش سوم متخصص طراحی سایت </small>
+						<small class="card-text d-flex text-muted c-space"> بوت استرپ (bootstrap) یک فریم ورک است که در طراحی صفحات وب به صورت رسپانسیو به کار می ورد. بوت استرپ شامل دستورات HTML، CSS و توابع جاوااسکریپت برای تولید و نمایش فرم ها، دکمه ها و المان های مورد نیاز طراحی وب می باشد.  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/python3-405x230.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 120 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> اموزش پایتون </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص پایتون </small>
+						<small class="card-text d-flex text-muted c-space"> بهترین دلیل برای یادگیری پایتون در سادگی آن نهفته است. پایتون از جمله زبان‌های برنامه‌نویسی است که یادگیری آن فوق‌العاده ساده است.  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/2019-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 30 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> آموزش پریمر </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش سوم متخصص گرافیک </small>
+						<small class="card-text d-flex text-muted c-space"> هدف اصلی ما  در اموزش پریمیر ۲۰۱۹ یادگیری کاربر و یک تدریس کاملا و جامع و جنرل و مخصوص بازارکار که سعی کردیم از مباحث تکراری و بیهوده پرهیز کنیم و . . . .  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/php-basic.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 50 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> اموزش پروژه محور php basic </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص php </small>
+						<small class="card-text d-flex text-muted c-space"> در آموزش پروژه محور php basic ، کاملترین و حرفه ای ترین سرفصل های آموزش php با بیانی ساده و به صورت کاملاٌ کاربردی گردآوری شده است . . . .  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end row 2 -->
+	
+	<!-- start row 3 -->
+	
+	<div class="container">
+		<div class="row mb-2">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/video-ps-1000x494-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 128 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block">  آموزش فتوشاپ ۲۰۱۹ با ۸ پروژه</a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص گرافیک </small>
+						<small class="card-text d-flex text-muted c-space"> آموزش طراحی لوگو ، ساخت صفحات وب ، روتوش عکس ، کارت ویزیت ، طراجی بروشور ،ترمیم عکس ، انیمیشن ، تکسچر سفارشی ، گرادیانت و …  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/java-1-min-405x230.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 109 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block">  Java با پروژه مدیریت آموزشگاه </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص جاوا </small>
+						<small class="card-text d-flex text-muted c-space"> زبان برنامه نویسی جاوا یکی از قدرتمندترین زبان های برنامه نویسی است. جاوا شی گراست و از قوانین شی گرایی استفاده می کند.  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/Cadvanced-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 238 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block">آموش سی شارپ + پروژه نرم افزار انبار </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص .net </small>
+						<small class="card-text d-flex text-muted c-space"> سی شارپ (#C) یک زبان برنامه نویسی شی گرا است که توسط شرکت مایکروسافت ساخته شده و ترکیبی از قابلیتهای خوب زبان های ++C و Java است.  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/node_js_development_company_by_leenajose-d8u9vq4-405x230.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 236 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> آموزش Node JS </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص Js </small>
+						<small class="card-text d-flex text-muted c-space"> یکی از ارکان اولیه برای ورود به دنیای برنامه نویسی و خصوصاً برنامه نویسی وب، یادگیری جاوا اسکریپت است. اگر بخواهیم به‌طور کلی صحبت کنیم، و . . . . </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- end row 3 -->
+	
+	<!-- start row 4 -->
+	
+		<div class="container custom-border">
+		<div class="row mt-3 mb-2">
+			<div class="col-12 d-md-flex justify-content-between align-items-center">
+				<p class="rounded-pill p-2 px-4 text-white text-center" style="font-size: 14px !important; background-color:  #4ec51c !important;">  
+				<img src="img/diamond (1).png" class="pl-2">
+					دوره های جدید
+				</p>
+				<p class="rounded-pill p-2 px-4 bg-secondary text-white text-center" style="font-size: 14px !important; cursor: pointer;">
+				<i class="fa fa-plus pl-2"></i>
+					مشاهده همه
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/after-effect.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 37 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block">  اموزش جامع افتر افکت </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول متخصص گرافیک </small>
+						<small class="card-text d-flex text-muted c-space">بدون شک تاکنون نمونه های از عملکرد برنامه After effects را دیده اید .تیراژ فیلم ماتریکس و بسیاری از تبلیغات تلویزیونی را بیاد آورید .  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/android.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 86 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> آموزش اندروید استدیو با پروژه بازی </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش سوم متخصص اندروید </small>
+						<small class="card-text d-flex text-muted c-space"> وب سرویس یک نوع رابط برنامه نویسی است که بر بستر وب پیاده سازی می شود. این رابط ها با استفاده از پروتکل های استاندارد مانند http، مکانیزم های مختلفی در اختیار ما قرار می دهند  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/config-405x230.jpg" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 180 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block"> کانفیگ سرور های لینوکسی </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش اول کانفیگ سرور </small>
+						<small class="card-text d-flex text-muted c-space">این دوره دوره امنیت سرور لینوکس هست در این دوره یاد میگریم چطوری یک سرور لینوکسی رو از صفر تا صد کانفیگ کنیم یعنی هم کانفیگ امنیتی و هم کانفیگ بهینه سازی </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger ml-3"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3 d-flex align-items-stretch">
+				<div class="card mb-3 custom-card">
+					<div class="sblyer">
+						<img src="img/php-mvc.png" class="img-fluid image">
+						<div class="overlay">
+							<button type="button" class="btn btn-primary rounded-pill"> مشاهده و خرید </button>
+							<span class="badge badge-pill badge-secondary"> 106 <i class="fa fa-shopping-basket"></i> </span>
+						</div>
+					</div>
+					<div class="card-body">
+						<a class="card-title d-block">طراحی قالب سایت دیجیکالا </a>
+						<small class="card-text d-flex mb-3 text-muted"> بخش سوم متخصص php </small>
+						<small class="card-text d-flex text-muted c-space"> در این بخش به طراحی قالب سایت دیجیکالا ( فرانت اند ) خواهیم پرداخت که در بخش اخر متخصص php این قالب رو داینامیک میکنیم و . . . .  </small>
+					</div>
+					<div class="card-footer justify-content-between align-items-center d-flex">
+						<small class="rounded-pill badge badge-danger"> 80% </small>
+						<div>
+						<del> 100.000 تومان </del>
+						<span class="text-success"> 20.000تومان </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end row 4 -->
+	<!-- End products -->
+	
+	<!-- Start  pagination-->
+	<div class="d-flex mt-3 justify-content-center align-items-center c-pagination">
+		<ul class="pagination pagination-sm">
+			<li class="page-item"> <a href="#" class="page-link"> بعدی </a> </li>
+			<li class="page-item active"> <a href="#" class="page-link"> 1 </a> </li>
+			<li class="page-item"> <a href="#" class="page-link"> 2 </a> </li>
+			<li class="page-item"> <a href="#" class="page-link"> قبلی </a> </li>
+		</ul>
+	</div>
+	<!-- End pagination -->
+	
+	<!-- Start newsletters -->
+	
+		<div class="container-fluid custom-container-fluid">
+			<div class="row py-5">
+				<div class="col-12 col-md-7 col-lg-5 mx-auto">
+					<h4 class="text-white text-center"> اشتراک در خبرنامه </h4>
+					<p class="text-white text-center"> جهت اطلاع از آخرین اخبار و تخفیف های سایت ، مشترک شوید !!! </p>
+					<div class="input-group">
+						<input type="text" class="form-control rounded-pill" placeholder="ایمیل خود را وارد کنید ...">
+						<div class="input-group-append">
+							<button class="btn btn-success rounded-pill"> اشتراک </button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- End newsletters -->
+	
+	
+	<!-- Start footer -->
+	
+	<div class="container">
+		<div class="row py-4">
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<small class="border-bottom d-block custom-small"> دسته ها </small>
+				<ul class="custom-ul mt-3 pr-4">
+					<li> <a href="#">  حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+					<li> <a href="#">  دانش (1) </a> </li>
+					<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+					<li> <a href="#">  سیمان ؛ اهن و گچ (1) </a> </li>
+					<li> <a href="#">  همه صنایع (4) </a> </li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<small class="border-bottom d-block custom-small"> دسته ها </small>
+				<ul class="custom-ul mt-3 pr-4">
+					<li> <a href="#">  حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+					<li> <a href="#">  دانش (1) </a> </li>
+					<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+					<li> <a href="#">  سیمان ؛ اهن و گچ (1) </a> </li>
+					<li> <a href="#">  همه صنایع (4) </a> </li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<small class="border-bottom d-block custom-small"> دسته ها </small>
+				<ul class="custom-ul mt-3 pr-4">
+					<li> <a href="#">  حمل و نقل ، انبار داری و ارتباطات (2) </a> </li>
+					<li> <a href="#">  دانش (1) </a> </li>
+					<li> <a href="#"> سایر محصولات کانی و غیرفلزی (2) </a> </li>
+					<li> <a href="#">  سیمان ؛ اهن و گچ (1) </a> </li>
+					<li> <a href="#">  همه صنایع (4) </a> </li>
+				</ul>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+				<small class="border-bottom d-block custom-small"> زرین پال </small>
+				<img src="img/1.svg" class="mt-3 img-fluid">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row justify-content-end">
+			<a href="#" class="top-link"> <i class="fa fa-chevron-circle-up"></i> </a>
+		</div>
+	</div>
+	<footer class="bg-light">
+		<div class="container">
+			<div class="row py-4">
+				<div class="col-12 col-lg-4">
+					<small class="text-muted"> کلیه حقوق محفوظ است | CopyRight &copy; 2006-2020 </small>
+				</div>
+					<div class="col-12 col-lg-4 text-center">
+					<a href="#"> <i class="fa fa-twitter text-muted" style="color: #a7a7a7 !important;"></i> </a>
+					<a href="#"> <i class="fa fa-facebook-f text-muted px-3" style="color: #a7a7a7 !important;"></i> </a>
+					<a href="#"> <i class="fa fa-instagram text-muted" style="color: #a7a7a7 !important;"></i> </a>
+					<a href="#"> <i class="fa fa-google-plus text-muted px-3" style="color: #a7a7a7 !important;"></i> </a>
+					<a href="#"> <i class="fa fa-telegram text-muted" style="color: #a7a7a7 !important;"></i> </a>
+				</div>
+				<div class="col-12 col-lg-4 text-left">
+					<small class="text-muted"> Helali026@gmail.com </small> &shortmid;
+					<small class="text-muted"> +989364646164 </small>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+	
+</body>
+</html>
+

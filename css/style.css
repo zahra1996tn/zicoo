@@ -1,0 +1,386 @@
+@charset "utf-8";
+/* CSS Document */
+/* start header */
+*{
+	text-decoration: none !important;
+	font-family: IRANSans;
+}
+a{
+	cursor: pointer !important;
+}
+.custom-input-group input, button{
+	font-size: 15px !important;
+	box-shadow: none !important;
+}
+.custom-header a{
+	font-size: 14px !important;
+	transition: all .3s ease;
+	color: #8e8e8e !important;
+}
+.custom-header a:hover{
+	color:#F75309 !important;
+}
+.custom-header-none a{
+	transition: all .3s ease !important;
+	font-size: 18px !important;
+	color: #8e8e8e !important;
+	margin-top: 60px;
+}
+.custom-header-none a:hover{
+	color: #F75309 !important;
+}
+/* end header */
+/* start menu */
+.custom-navbar-nav li a{
+	font-size: 14px!important;
+	color: #fff !important;
+}
+
+.custom-dropdownmenu {
+	background-color: #fff !important;
+	margin-top: 0px !important;
+}
+.custom-navbar-nav .custom-dropdownmenu a{
+	color: #000 !important;
+	transition: all .3s ease;
+	background: none !important;
+}
+.custom-navbar-nav .dropdown-menu a:hover{
+	color: #F75309 !important;
+}
+.custom-navbar-nav .dropdown-menu{
+	background-color: #f8f9fa !important;
+}
+@media (min-width:992px) {
+	.navbar {
+		padding-top:0 !important;
+		padding-bottom: 0 !important;
+	}
+	.custom-nav-item {
+		padding-top:13px !important;
+		padding-bottom: 13px !important;
+		border-left:  1px solid #6a767d !important;
+	}
+	.nav-item:last-child {
+		border: none !important;
+	}
+}
+@media(min-width:992px){
+		.dropdown-menu {
+		opacity: 0 !important;
+		display: block !important;
+		top: 80px !important;
+		transition: all .3s ease !important;
+		visibility: hidden !important;
+		transition-delay: .2s !important;
+	}
+	.dropdown:hover .dropdown-menu {
+		opacity: 1 !important;
+		display: block !important;
+		top: 63px !important;
+		visibility: visible !important;
+	}
+}
+
+/* End menu */
+
+/* Start slider */
+
+.custom-containerfluid {
+	background: url("https://s4.uupload.ir/files/background1_vbn7.jpg");
+	width: 100%;
+	height: 260px !important;
+	position: relative !important;
+}
+.titr{
+	color: #ffe9e9 !important;
+	background-color: #d80f34;
+	top: 95px!important;
+	position: relative !important;
+
+}
+
+/* End slider */
+
+/* Start products */
+
+.custom-border{
+	color: #fff !important;
+}
+.custom-border::before{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background-color: #4ec51c;
+	display: block;
+	top: 37px;
+	position: relative;
+}
+.custom-card .sblyer{
+	position: relative;
+	display: flex !important;
+}
+
+.custom-card .overlay{
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0 !important;
+	right: 0 !important;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s ease-out;
+}
+.custom-card:hover .overlay{
+	opacity: 1;
+	visibility: visible;
+}
+.overlay .btn{
+	position: absolute !important;
+	top: 65% !important;
+	right: 50% !important;
+	transform: translate(50% , -50%) scale(0);
+	transition: all .3s ease-out ;
+	font-weight: lighter !important;
+}
+.custom-card:hover .btn{
+	transform: translate(50%,-50%) scale(1);
+}
+.overlay span{
+	position: absolute !important;
+	top: 15% !important;
+	right: 50% !important;
+	transform: translate(50%, -50%) scale(0);
+	transition: all .3s ease-out  .2s;
+	font-size: 14px !important;
+	font-weight: lighter !important;
+}
+.custom-card:hover span {
+	transform: translate(50%,-50%) scale(1);
+}
+.custom-card .c-space{
+	word-spacing: 6px;
+}
+
+.custom-card .card-footer del{
+	color: #cdcdcd !important;
+	font-size: x-small !important;
+	text-decoration: line-through !important;
+	font-weight: lighter !important;
+}
+.custom-card .card-body a{
+	transition: all ease .3s;
+}
+.custom-card .card-body a:hover{
+	color: #f58221 !important;	
+}
+	
+.custom-card .card-footer .badge{
+	font-weight: lighter !important;
+}
+.sblyer .image {
+	width: 100% !important;
+} 
+.c-pagination li a{
+	font-weight: lighter !important;
+}
+
+/* End products */
+/* start newsletters */
+.custom-container-fluid {
+	background-blend-mode: overlay !important;
+	background-image: url("https://s4.uupload.ir/files/bg-b1_gvng.jpg") !important;
+	background-color: rgb(49,49,49) !important;
+	width: 100%;
+	
+}
+
+/* End newsletters */
+
+/* Start footer */
+.custom-ul li{
+	color: #039be5 !important;
+}
+.custom-small{
+	color: #039be5 !important;
+	border-bottom: 1px solid #039be5 !important;
+}
+.custom-ul li a{
+	color: #000 !important;
+	font-size: 13px !important;
+	transition: all ease .3s;
+}
+.custom-ul li a:hover{
+	
+	color: #f58221 !important;
+}
+
+/* End footer */
+
+/* Start info products */
+	
+.mytable {
+	background-color: #425e65 !important;
+	font-size: smaller !important;
+}
+.mytable tr:nth-last-of-type(odd){
+	background-color: #3f5960 !important;
+}
+.mytable td {
+	padding: 25px !important;
+}
+
+.custom-fa  a i{
+	color: #cdcdcd !important;
+	transition: all .3s ease;
+}
+.custom-fa a i:hover{
+	color:  #f58221 !important;
+}
+
+/* End info products */
+
+/* start tabs */
+.custom-card-header a{
+	font-size: smaller !important;
+}
+
+.custom-ul li div {
+	border: 1px solid rgba(0,0,0,.2)!important;
+	background-color:  #f1e9e9 !important;
+	color: #000;
+}
+.custom-ul li p{
+	font-size: smaller !important;
+	color: #000080 !important;
+
+}
+.custom-border-ul::before{
+	content: '';
+	width: 2px;
+	height: 142%;
+	background-color: #ccc;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 35px;
+	z-index: 20;
+}
+.custom-ul i{
+	font-size: 30px;
+	transition: all .2s ease;
+	color: #5a9b99 !important;
+	z-index: 30;
+}
+.custom-li-hover:hover i{
+	color:  #c83232 !important;
+}
+/* شروع ایجاد ستاره برای دادن امتیاز */
+
+.rate {
+	position: relative;
+	display: inline-block;
+	bottom: 5px !important;
+}
+.rate:not(:checked)>input {
+	position: relative;
+	top: -9999px;
+}
+
+.rate:not(:checked)>label {
+	float: right;
+	width: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 25px;
+	color: #ccc;
+}
+.rate:not(:checked)>label:before {
+	content: "★";
+}
+
+.rate>input:checked~label {
+	color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover, .rate:not(:checked)>label:hover~label {
+	color: #deb217;
+}
+
+.rate>input:checked+label:hover  {
+	color: #c59b08;
+}
+.rate>input:checked+label:hover~label {
+		color: #c59b08;
+}
+
+.rate>input:checked~label:hover {
+		color: #c59b08;
+}
+.rate>input:checked~label:hover~label {
+		color: #c59b08;
+}
+.rate>label:hover~input:checked~label {
+		color: #c59b08;
+}
+
+
+/* پایان ایجاد ستاره برای دادن امتیاز */
+
+
+.custom-label label:after{
+	content: '*';
+	color: red;
+}
+
+/* end tabs */
+
+/* Start sign-up */
+
+.custom-signup-form {
+	position: relative;
+	border-radius: 30px !important;
+	background-image: linear-gradient(315deg  , #36096d  , #37d5d6 80%) !important;
+	border: none !important;
+	z-index: 1;
+}
+.custom-signup-form:after{   /* after or before  زیاد فرق ندارند */
+	content: '';
+	position: absolute;
+	top: 0;  /* top , right( or left) رو 0 میدیم تا دقیقا بیفتد روی خود دکمه قبلی */
+	right: 0;
+	opacity: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	border-radius: 30px !important;
+	background-image: linear-gradient(315deg  , #37d5d6  , #36096d ) !important;
+	border: none !important;
+	transition: all .8s ease;
+}
+.custom-signup-form:hover:after{
+	opacity: 1;
+}
+
+/* End sign-up */
+
+/* start panel user */
+@media(min-width:992px){
+	.cust-shadow-panel img{
+		display: block !important;
+		align-items: center !important;
+		margin-bottom: 6px !important;
+	}
+}
+#alert button span{
+	display: inline-block !important;
+	margin-left: 0px !important;
+	float: left !important;
+}
+
+
+
+
+
